@@ -27,7 +27,7 @@ export const AuthProvider = ({ children }) => {
                 setAuthUser(data.user)
                 connectSocket(data.user) // Kết nối socket nếu đã đăng nhập
             }
-        } catch (error) {
+        } catch {
             // Nếu không đăng nhập hoặc token hết hạn, xóa dữ liệu
             setAuthUser(null);
         }
