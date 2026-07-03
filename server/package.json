@@ -1,0 +1,8 @@
+{
+  "name": "chat-app-server",
+  "private": true,
+  "scripts": {
+    "dev": "py run.py",
+    "start": "py run.py"
+  }
+}
